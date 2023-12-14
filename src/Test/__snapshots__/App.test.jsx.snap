@@ -1,0 +1,145 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`App component > Shopping Appls 1`] = `
+<div>
+  <div
+    class="_container_ae5a9c"
+  >
+    <header>
+      <h1>
+        YUMEKO
+      </h1>
+      <div
+        class="_navBar_6716bd"
+      >
+        <li>
+          <a
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            href="/store"
+          >
+            Store
+          </a>
+        </li>
+      </div>
+      <div
+        class="_icon_6716bd"
+      >
+        <div
+          class="_cartIcon_6716bd"
+        >
+          <img
+            alt="StoreLogo"
+            src="/src/Home/store-solid.svg"
+          />
+        </div>
+        <img
+          alt="UserLogo"
+          src="/src/Home/user-solid.svg"
+        />
+      </div>
+    </header>
+    <main>
+      <img
+        alt="closetPhoto"
+        src="/src/Home/closet.webp"
+      />
+      <h1>
+        THE LONG WEEKEND SALE
+      </h1>
+      <h2>
+        Fashion Clothes - Q'3
+      </h2>
+      <p>
+        Grab it while stock last
+      </p>
+      <button>
+        SHOP NOW
+      </button>
+    </main>
+    <footer>
+      <p>
+        DISCLAIMER - This is a fake shopping website built with React.
+      </p>
+      Designed and coded by YC Wong @2023
+    </footer>
+  </div>
+</div>
+`;
+
+exports[`App component > renders Home page correctly 1`] = `
+<div>
+  <div
+    class="_container_ae5a9c"
+  >
+    <header>
+      <h1>
+        YUMEKO
+      </h1>
+      <div
+        class="_navBar_6716bd"
+      >
+        <li>
+          <a
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            href="/store"
+          >
+            Store
+          </a>
+        </li>
+      </div>
+      <div
+        class="_icon_6716bd"
+      >
+        <div
+          class="_cartIcon_6716bd"
+        >
+          <img
+            alt="StoreLogo"
+            src="/src/Home/store-solid.svg"
+          />
+        </div>
+        <img
+          alt="UserLogo"
+          src="/src/Home/user-solid.svg"
+        />
+      </div>
+    </header>
+    <main>
+      <img
+        alt="closetPhoto"
+        src="/src/Home/closet.webp"
+      />
+      <h1>
+        THE LONG WEEKEND SALE
+      </h1>
+      <h2>
+        Fashion Clothes - Q'3
+      </h2>
+      <p>
+        Grab it while stock last
+      </p>
+      <button>
+        SHOP NOW
+      </button>
+    </main>
+    <footer>
+      <p>
+        DISCLAIMER - This is a fake shopping website built with React.
+      </p>
+      Designed and coded by YC Wong @2023
+    </footer>
+  </div>
+</div>
+`;

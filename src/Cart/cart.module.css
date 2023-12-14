@@ -1,0 +1,105 @@
+
+.cart{
+    text-align: left;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 5px solid orange;
+    padding: 30px;
+    /*  */
+    position: fixed;
+    top: 100px;
+    right: 0;
+    width: 90vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.cartItem, .header{
+    display: grid;
+    grid: auto / 0.5fr 2fr 4fr 2fr 1fr ;
+    align-items: center;
+}
+
+p.totalPrice{
+    text-align: right;
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
+/* .cart.title{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+} */
+
+.cart .subTotal{
+    text-align: right;
+}
+
+.header{
+    font-weight: 600;
+}
+
+.cart h1{
+    display: flex;
+    justify-content: space-between;
+}
+.cart h1 span{
+    color: orange;
+}
+
+.cart h1 span:hover{
+    transform: translateY(-3px);
+    color: Red;
+    cursor: pointer;
+}   
+
+.cartItem img{
+    width: 10vw;
+    aspect-ratio: 1;
+}
+
+p span.count{
+    margin: 0 10px;
+}
+
+p span.spanUnitPrice{
+    margin-left: 15px;
+}
+
+.cartItem span.button{
+    padding: 3px 15px;
+    border-radius: 30px;
+    background-color: orange;
+}
+.cart button{
+    padding: 25px 100px;
+    margin: 0 auto;
+    border-radius: 30px;
+    background-color: orange;
+    color: white;
+    font-size: 1.3rem;
+    border: none;
+    font-weight: 800;
+}
+
+.cartItem span.button:hover{
+    background-color: lightgray;
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+
+.cart button:hover{
+    background-color: red;
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+
+.cart button:active, .cartItem span.button:active{
+    transform: translateY(5px);
+    background-color: greenyellow;
+
+}
+

@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.container {
+    padding: 15px;
+    background-color: whitesmoke;
+    display: grid;
+    align-content: space-between;
+    /* grid: 10px 500px 30px; */
+    height: 100vh;
+}
+
+
+main *{
+    padding:  15px;
+}
+
+main button {
+    padding: 15px 30px;
+    background-color: black;
+    color: whitesmoke;
+    font-weight: 800;
+    border: none;
+}
+
+main button:hover{
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}

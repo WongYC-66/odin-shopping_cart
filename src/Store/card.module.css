@@ -1,0 +1,64 @@
+.card img{
+    height: 100px;
+    /* width: 100px; */
+    aspect-ratio: 1;
+}
+
+.card {
+    border : 4px solid lightgrey;
+    border-radius: 25px;
+    background-color: white;
+    padding: 10px;
+    /*  */
+    /* display: flex; */
+    /* flex-direction: column; */
+    display: grid;
+    grid: 2fr 1fr 1fr 1fr / auto;
+    gap: 3px;
+    justify-items: center;
+    align-items: center;
+}
+
+.card > .cardControl{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.cardControl .minusBtn, .cardControl .plusBtn{
+    background-color: orange;
+    border: 1px solid ghostwhite;
+    padding: 1px 15px;
+    border-radius: 20px;
+    color: whitesmoke;
+    font-weight: 800;
+}
+
+.cardControl .countText{
+    /* background-color: aqua; */
+    color: darkorange;
+    font-weight: 800;
+}
+
+.cardControl .addToCartBtn{
+    background-color: darkorange;
+    border: none;
+    color: whitesmoke;
+    font-weight: 600;
+    padding: 5px 10px;
+}
+.card > h5 {
+    overflow: hidden;
+}
+
+.cardControl button:hover{
+    background-color: green;
+    color: whitesmoke;
+    transform: translate(3px);
+
+}
+
+.cardControl button:active{
+    transform: translate(5px);
+    outline: none;
+}
